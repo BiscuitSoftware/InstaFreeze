@@ -1,0 +1,10 @@
+name: InstaFreeze
+main: com.olivermartin410.plugins.instafreeze.InstaFreeze
+version: 1.0
+author: Oliver Martin (Revilo410)
+commands:
+   freeze:
+      description: Freezes a player to stop them moving, interacting with blocks, or sending commands
+      usage: /freeze <player>
+      permission: instafreeze.freeze
+      permission-message: You do not have permission (instafreeze.freeze)
